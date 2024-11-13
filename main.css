@@ -1,0 +1,133 @@
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #fff;
+    font-size: 24px;
+}
+
+.mb-3, h2 {
+    color: #fff;
+}
+
+header {
+    height: 90px;
+}
+
+.navbar {
+    background-color: #626697;
+    height: 90px;
+    padding: 0.5rem 1rem;
+
+}
+
+#logo {
+    width: 100px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D'http://www.w3.org/2000/svg' viewBox%3D'0 0 30 30'%3E%3Cpath stroke%3D'rgba(255, 255, 255, 1)' stroke-width%3D'2' stroke-linecap%3D'round' stroke-miterlimit%3D'10' d%3D'M4 7h22M4 15h22M4 23h22'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #595fa0;
+    color: #220e68;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px #626697;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators li {
+    list-style: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.container .my-4 {
+    margin: 0;
+}
+
+form, h2 {
+    width: 400px;
+    padding: 12px;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+section {
+    height: 30vh;
+    overflow: hidden;
+}
+
+/* Estilos responsivos */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        background-color: #626697; /* Cor de fundo para o menu expandido */
+    }
+
+    .navbar-collapse {
+        background-color: #626697;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.8rem;
+        font-size: 18px;
+    }
+}
+footer {
+    background-color: #595fa0; 
+    padding: 20px 0; 
+    text-align: center; 
+    color: #fff; }

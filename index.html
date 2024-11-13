@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>PopCine - Início</title>
+</head>
+<body>
+
+
+
+
+  <video class="video-background" autoplay muted loop>
+    <source src="./background.mp4" type="video/mp4">
+  </video>
+
+
+
+
+
+
+  <header>
+    <div class="container nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a href="#" class="navbar-brand">
+                <img id="logo" src="./logo.png" alt="logo vingadores">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-item nav-link" href="#filmes">Filmes</a>
+                    <a class="nav-item nav-link" href="#series">Series</a>
+                    <a class="nav-item nav-link" href="#favoritos">Favoritos</a>
+                    <a class="nav-item nav-link" href="#contato">Contato</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <!-- Carousel -->
+    <div class="container-fluid" id="inicio">
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+                <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+                <li data-bs-target="#mainSlider" data-bs-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./carousel_marvel.jpg" class="d-block w-100" alt="filme marvel">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./carousel_guradioes.jpg" class="d-block w-100" alt="guardioes">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./carousel_estranho.png" class="d-block w-100" alt="estranho">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./carousel_homen_de_ferro.png" class="d-block w-100" alt="homem de ferro">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Proximo</span>
+            </a>
+        </div>
+    </div>
+    <main>
+        <section id="filmes">
+            <div class="my-4">
+              <div class="row">
+                <h2>Filmes</h2>
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img  src="./Vingadores-Ultimato.webp" class="card-img-top" alt="Filme ultimato">
+                      </div>
+                </div>
+          
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./guerra_infinita.webp" class="card-img-top" alt="Filme guerra infinita">
+                      </div>
+                </div>
+          
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                      <img src="./doutor_estranho.webp" class="card-img-top" alt="Filme doutor estranho">
+                      </div>
+                </div>
+          
+                <!-- Card 4 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                      <img src="./HomemAranhaLongeretang.jpg" class="card-img-top" alt="Filme homem aranha longe de casa">
+                      </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="series">
+            <div class="my-4">
+              <div class="row">
+                <h2>Series</h2>
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./serie-Loki.jpg" class="card-img-top" alt="serie loki">
+                      </div>
+                </div>
+          
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./serie_wanda_vision.webp" class="card-img-top" alt="serie wanda vision">
+                      </div>
+                </div>
+          
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./falcao-e-o-soldado-invernal-fundo-1.webp" class="card-img-top" alt="serie falcão e o Soldado Invernal">
+                      </div>
+                </div>
+          
+                <!-- Card 4 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./serie_gavião_arqueiro.jpg" class="card-img-top" alt="serie gavião arqueiro">
+                      </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="favoritos">
+            <div class="my-4">
+              <div class="row">
+                <h2>Favoritos</h2>
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./favoritos_thor.webp" class="card-img-top" alt="filme thor">
+                      </div>
+                </div>
+          
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./favorito_homem_ferro.jpeg" class="card-img-top" alt="filme homem de ferro">
+                      </div>
+                </div>
+          
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./favorito_soldado_invernal.webp" class="card-img-top" alt="filme captao america">
+                      </div>
+                </div>
+          
+                <!-- Card 4 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-50">
+                        <img src="./favorito_captain_marvel.jpg" class="card-img-top" alt="filme capitain marvel">
+                      </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+    <div class=" my-5" id="contato">
+        <h2 class="mb-4">Entre em Contato</h2>
+        <form>
+          <!-- Campo Nome -->
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+          </div>
+    
+          <!-- Campo Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+          </div>
+    
+          <!-- Campo Mensagem -->
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Sua Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+          </div>
+    
+          <!-- Checkbox Termos -->
+          <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="termos" required>
+            <label class="form-check-label" for="termos">
+              Concordo com os <a href="#" class="link-primary">termos do site</a>.
+            </label>
+          </div>
+    
+          <!-- Botão Enviar -->
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <footer>
+        <div class="footer-container">
+            <p>2024 &copy; Marvel-Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
